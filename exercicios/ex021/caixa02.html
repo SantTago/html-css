@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: cadetblue;
+            margin: 0px;
+        }
+        h1 {
+            box-shadow:  1px 1px 1px rgba(0, 0, 0, 0.226); /* inset para sombras dentro */
+        }
+
+        div#bola {
+            width: 100px;
+            height: 100px;
+            border-radius: 105px 105px;
+            margin: 10px;
+            background-color: aquamarine;
+        }
+
+        header {
+            background-color: aquamarine;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 5px 10px black;
+        }
+
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        
+        }
+
+        article {
+            background-color: lightcoral;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(184, 19, 19);
+            padding: 1px;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            background-color: rgb(117, 113, 113);
+            text-align: center;
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+        }
+        nav > a {
+            text-decoration:  none;
+            font-weight: bold;
+            color: white;
+            margin: 15px;
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline; /* underline - linha de baixo do text */ 
+            color: aquamarine;
+        }
+
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 1px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <!---
+    <div></div>  Caixa Box-Level
+    <span></span> Caixa inline-Level-->
+
+    <header> <!-- cabeçalho-->
+        <h1>meu Site</h1>
+        <nav> <!-- Menu -->
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+
+         
+        </nav>
+    </header>
+     
+    <main> <!-- Conteudo Princiapal -->
+
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+
+            <article> <!--artigo-->
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum optio ab illo maxime totam reprehenderit eveniet fuga eum nobis, consectetur laudantium debitis quisquam. Sint optio, possimus ipsum dolore eligendi molestiae.</p>
+                <aside>
+                    <p>artigo escrito por tiago viana da cruz</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+
+    <footer> <!-- Roda Pé do Site-->
+        <p>Desemvolvido por Tiago viana da cruz Camocim-Ce</p>
+    </footer>
+
+    <div id="bola"></div>
+    
+</body>
+</html>

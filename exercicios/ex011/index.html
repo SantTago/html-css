@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexíveis</title>
+</head>
+<body>
+    
+    <picture>
+        <source media="(max-width: 350px)" srcset="imagens/50px.png" type="image/png">
+        <source media="(max-width: 650px)" srcset="imagens/100px.png" type="image/png">
+        <source media="(max-width: 850px)" srcset="imagens/300px.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/700px.png" type="image/png"> 
+        <img src="imagens/1000px.png" alt="A imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audio no HTML5</h1>
+    <p>Vamos aprender a reproduzir audio mp3 em html5</p>
+    <audio src="midia/musica-1.mp3"controls autoplay></audio>
+    
+</body>
+</html>

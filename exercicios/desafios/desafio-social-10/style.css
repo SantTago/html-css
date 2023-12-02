@@ -1,0 +1,196 @@
+
+
+
+@font-face {
+    font-family: 'font';
+    src: url(arquivos/__MACOSX/fontes/);
+
+    font-family: 'fonte';
+    src: url(arquivos/fontes/idroid.otf);
+}
+
+body {
+    background-color: rgb(132, 225, 173);
+    margin:auto;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(rgb(59, 214, 130) ,rgb(26, 92, 56));
+    text-align: center;
+    margin: 0px;
+}
+
+header > p {
+    padding: 0px;
+    color: white;
+}
+
+.menu {
+    text-align: left;
+    margin: -10px;
+    padding-top: 49px;
+    padding-left: 15px;
+}
+.menu > a {
+    text-decoration: none;
+    margin-left: 20px;
+    border-width: 10px;
+    color: white;
+}
+
+.menu > a:hover {
+    color: rgb(171, 248, 171);
+}
+
+h1 {
+    font-family: 'font', Helvetica, sans-serif;
+    color: white;
+    padding-top: 26px;
+    margin: 0px;
+
+}
+.principal {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 400 auto 400 auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    margin-right: 80px;
+    margin-left: 80px;
+    
+}
+
+article {
+    margin: 0px 20px 0px 20px;
+}
+
+#titulo {
+    font-family: 'fonte', Helvetica, sans-serif;
+    text-align: left;
+    font-size: 2em;
+    color: rgb(15, 87, 25);
+    margin-left: 10px;
+}
+
+h2 {
+    background-image: linear-gradient(to left, rgb(255, 255, 255) ,rgb(167, 252, 205));
+    font-family: 'fonte', Helvetica, sans-serif;
+    text-align: left;
+    font-size: 1em;
+    color: rgb(15, 87, 25);
+    margin-left: 10px;
+}
+
+h3.titulo {
+    height: 100%;
+    background-color: rgb(54, 173, 70);
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    border-left: 10px;
+    color: white;
+
+}
+
+main > p {
+    text-align: center;
+    padding: 22px;
+}
+
+.midia> img {
+    display: block;
+    height: 300px;
+    margin: 0px auto 0px auto;
+    
+}
+
+.mulher > img {
+    display: block;
+    height: 300px;
+    margin: 0px auto 0px auto;
+}
+
+.android > img {
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+.video {
+    display: flex;
+    background-color: rgb(15, 87, 25);
+    border-style: solid;
+    border-color: rgb(15, 87, 25);
+    
+}
+
+.video > video {
+    width: 100%;
+    outline: 10px;
+    margin: 1px;
+}
+
+.sumario {
+    background-color: rgb(175, 241, 219);
+    box-shadow: 1px 1px  15px rgba(0, 0, 0, 0.295);
+    border-radius: 15px 15px;
+    width: 90%;
+    margin: 0px auto 18px auto;
+    margin-top: 10px;
+    border: 10px;
+    padding-bottom: 17px;
+
+}
+
+.sumario p {
+    margin: 10px;
+}
+
+
+
+.su {
+    display: flex;
+
+}
+
+.su ul {
+    width: 48%;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+}
+
+.su ul li {
+    margin-bottom: 5px;
+}
+
+.su ul li:hover {
+    color: rgb(255, 0, 0);
+}
+
+footer {
+    background-color: rgb(15, 87, 25);
+    height: 35px;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding: 10px;
+}
+
+
+strong {
+    text-decoration: none;
+    color: rgb(15, 87, 25);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(15, 87, 25);
+}
+
+
+
+ 

@@ -1,0 +1,30 @@
+<html>: Define o elemento raiz de um documento HTML.
+<head>: Contém informações sobre o documento, como título e metadados.
+<title>: Define o título da página que aparece na aba do navegador.
+<meta>: Fornece metadados sobre o documento, como codificação de caracteres e descrição.
+<link>: Utilizado para vincular recursos externos, como folhas de estilo CSS.
+<style>: Define estilos CSS diretamente no documento.
+<script>: Usado para incorporar scripts JavaScript no documento.
+<body>: Contém o conteúdo principal da página.
+<header>: Representa o cabeçalho da página ou seção.
+<nav>: Define a área de navegação do site.
+<main>: Indica o conteúdo principal da página.
+<article>: Define um conteúdo independente, como um post de blog ou notícia.
+<section>: Divide o conteúdo em seções temáticas.
+<aside>: Representa conteúdo relacionado, como barras laterais.
+<footer>: Define o rodapé da página ou seção.
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Cabeçalhos de diferentes níveis de importância.
+<p>: Define um parágrafo de texto.
+<a>: Cria um link para outra página ou recurso.
+<img>: Incorpora imagens.
+<ul>: Cria uma lista não ordenada.
+<ol>: Cria uma lista ordenada.
+<li>: Define um item de lista em listas ordenadas e não ordenadas.
+<table>: Define uma tabela.
+<tr>: Define uma linha em uma tabela.
+<td>: Define uma célula de dados em uma tabela.
+<th>: Define um cabeçalho de coluna em uma tabela.
+<form>: Cria um formulário para coletar dados do usuário.
+<input>: Define campos de entrada de dados, como caixas de texto e botões.
+<textarea>: Cria uma área de texto de várias linhas em um formulário.
+<button>: Cria um botão interativo.

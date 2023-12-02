@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS 
+
+        # = id
+        . = class
+        : = pseudo - class
+        :: = pseudo - element
+        > = clildren como se fosse o filho EX: h1 > p | um paragrafo dentro do h1 
+
+        */
+
+        @font-face {
+            font-family: 'primeiro';
+            src: url(FORMULA-A.ttf);
+        }
+
+        body {
+            font-family:'primeiro', Helvetica, sans-serif;
+
+        }
+        a {
+            color: red;
+            text-decoration: none;   /* text-decoration: none -> tira o traso de baixo ou alguma decoraçao na fonte */ 
+            font-weight: bold;
+        }
+
+        a:visited { /* psedo - classe para mudar a quando um link ja tiver sido visitado */ 
+            color: rgb(92, 36, 36);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline; /* underline com hover aparece o traso em baixo do texto quando passa o mauso em cima */
+        }
+        a:active { /* active qunado o usuario clicar */ 
+            color: yellow; /* fique da cor amarela */   
+        }
+
+        /*-----------------Pseudo objeto------------------------*/
+        .especial {
+            background-color: rgb(2, 255, 242);
+        }
+        .especial::before { /* frente do link */ 
+            content: '☢';
+        }
+
+        .especial::after { /* after -> Depois di link */ 
+            content: '☢';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Pesonalizando links </h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">Repositorio Githab</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursos/" target="_blank" class="especial">Site do curso em video</a> </li>
+    </ul>
+</body>
+</html>
