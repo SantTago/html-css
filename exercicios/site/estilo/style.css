@@ -109,6 +109,47 @@
     }
 
 
+    .prefeitura {
+        display: flex;
+        justify-content: center;
+    }
+    .prefeita-prefeito {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .prefeitura-artigo p{
+        margin: 0px auto 0px auto;
+        text-align: center;
+    }
+
+
+    .pre-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .prefeita-prefeito > div {
+        height: auto;
+        margin: 1px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+    }
+    
+    .prefeitura-artigo > h3 {
+        max-width: 320px;
+       
+     }
+
+    .prefeitura-artigo > p {
+        max-width: 310px;
+       
+     }
+
+    .prefeita-prefeito img {
+        max-width: 300px;
+    }
+
 }
 
 
@@ -224,6 +265,7 @@
     padding: 0px;
     
 }
+
 
 header {
     background-image: linear-gradient(to top, var(--cor6), var(--cor7));
@@ -1412,6 +1454,10 @@ hr {
     display: flex;
     justify-content: center;
   }
+  .prefeitura-bloco img {
+    height: 100%;
+    width: 100%;
+  }
 
   .prefeitura-h2 {
     text-align: center;
@@ -1424,20 +1470,17 @@ hr {
   }
 
   .prefeita-prefeito{
-    width: 1000px;
-    height: 1600px;
+    height: auto;
     margin: 20px auto 20px auto;
    
   }
 
   .prefeita-prefeito > div{
-    width: 600px;
-    height: 1600px;
+    height: auto;
     margin: 1px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
   }
   
-
   .prefeita-prefeito > div > .pre-img {
     display: flex;
     justify-content: center;
@@ -1445,13 +1488,52 @@ hr {
 
 
   .prefeita-prefeito > div > .pre-img {
-    width: 400px;
-    height: 500px;
-    margin: auto;
-    margin-top: 20px;
+    height: 80%;
+    margin: 80%;
+    
+  }
+
+  .prefeitura-artigo > p {
+     max-width: auto;
+    
+  }
+ 
+
+  .nome-prefeita {
+    text-align: center;
+    padding: 20px;
+    
+  }
+
+  .nome-prefeita  > p{
+    margin-bottom: 37px;
+    text-align: center;
+    
   }
 
 
+  .prefeitura-artigo {
+    text-align: left;
+    margin: 1px;
+  }
+
+  .prefeitura-artigo > h3 {
+    width: 500px;
+    text-align: left;
+    margin: 5px;
+    font-weight: 400;
+    font-size: 1em;
+  }
+
+  .prefeitura-artigo > p {
+    width: 500px;
+    text-align: left;
+    margin: 5px;
+    font-weight: 100;
+    
+  }
+
+  
   
 
 footer {
